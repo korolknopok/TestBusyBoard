@@ -1,10 +1,12 @@
 .header {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
   height: 56px;
   padding: 0 20px;
   border-bottom: 1px solid #dce7f1;
   background: #ffffff;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.07);
 }
 
 .header-favorite {

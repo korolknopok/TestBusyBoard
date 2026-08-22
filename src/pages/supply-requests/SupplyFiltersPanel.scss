@@ -1,0 +1,127 @@
+.supply-filters-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.supply-filters-toolbar {
+  display: flex;
+  gap: 10px;
+}
+
+.supply-filters-filter-button {
+  padding: 16px 44px;
+  border-radius: 8px;
+  border: none;
+  background: #429eff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.supply-filters-icon-button {
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 8px;
+  background: #dce7f1;
+}
+
+.supply-filters-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.supply-filters-action-button {
+  justify-content: center;
+  min-width: 140px;
+  height: 46px;
+  padding: 12px 9px;
+  gap: 6px;
+  border-radius: 8px;
+  background: #429eff;
+}
+
+.supply-filters-action-button .icon-button-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.supply-filters-settings-button {
+  background: #ffffff;
+  border: 1px solid #dce7f1;
+}
+
+.supply-filters-fields {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #dce7f145;
+}
+
+.supply-filters-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.supply-filters-field-label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #35373a;
+}
+
+.supply-filters-select {
+  width: 100%;
+  min-width: 150px;
+  height: 46px !important;
+}
+
+.supply-filters-select .ant-select-selector {
+  height: 46px !important;
+  border-radius: 8px;
+  border-color: #dce7f1;
+}
+
+.supply-filters-select .ant-select-selection-placeholder,
+.supply-filters-select .ant-select-selection-item {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.supply-filters-select .ant-select-selection-item {
+  color: #35373a;
+}
+
+.supply-filters-saved {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.supply-filters-saved-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 32px;
+  padding: 0 6px;
+  border-radius: 16px;
+  background: #dce7f1;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.07);
+  font-weight: 500;
+  font-size: 14px;
+  color: #8496af;
+}
+
+.supply-filters-saved-filter-active {
+  background: #429eff;
+  color: #ffffff;
+}

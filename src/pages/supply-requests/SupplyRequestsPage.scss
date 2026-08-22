@@ -1,0 +1,32 @@
+.supply-requests-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  padding: 10px 20px 20px;
+}
+
+.supply-requests-label {
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 9px 9px 0 0;
+  background: #dce7f1;
+  font-weight: 700;
+  font-size: 16px;
+  color: #8496af;
+}
+
+.supply-requests-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  gap: 20px;
+  background: #ffffff;
+  border: 0.5px solid #dce7f1;
+  border-radius: 0 8px 8px 8px;
+  padding: 20px;
+}
