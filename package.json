@@ -7,7 +7,7 @@
     "start": "webpack serve --mode development --open",
     "build": "webpack build --mode production",
     "typecheck": "tsc --noEmit",
-    "deploy": "npm run build && touch dist/.nojekyll && gh-pages -d dist"
+    "deploy": "npm run build && touch dist/.nojekyll && gh-pages -d dist --dotfiles"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
