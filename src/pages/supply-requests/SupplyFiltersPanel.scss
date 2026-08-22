@@ -79,20 +79,12 @@
 }
 
 .supply-filters-select {
-  width: 100%;
   min-width: 150px;
   height: 46px !important;
 }
 
-.supply-filters-select .ant-select-selector {
-  height: 46px !important;
-  border-radius: 8px;
-  border-color: #dce7f1;
-}
-
 .supply-filters-select .ant-select-selection-placeholder,
 .supply-filters-select .ant-select-selection-item {
-  font-weight: 400;
   font-size: 14px;
 }
 
