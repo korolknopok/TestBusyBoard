@@ -54,12 +54,12 @@ export const SupplyFiltersPanel = () => (
         <IconButton
           icon="download"
           text="Загрузить по API"
-          className="supply-filters-action-button"
+          className="supply-filters-action-button onboarding-download-button"
         />
         <IconButton
           icon="plus"
           text="Заявка на поставку"
-          className="supply-filters-action-button"
+          className="supply-filters-action-button onboarding-create-button"
         />
         <IconButton
           icon="settings"

@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Onboarding } from 'features/onboarding/Onboarding';
 import { SupplyFiltersPanel } from 'pages/supply-requests/SupplyFiltersPanel';
 import { SupplyPagination } from 'pages/supply-requests/SupplyPagination';
 import { SupplyRequestsTable } from 'pages/supply-requests/SupplyRequestsTable';
@@ -9,6 +10,8 @@ export const SupplyRequestsPage = () => (
   <div
     className="supply-requests-page"
   >
+    <Onboarding/>
+
     <div
       className="supply-requests-label"
     >

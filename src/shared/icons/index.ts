@@ -11,6 +11,7 @@ import download from './download.svg';
 import plus from './plus.svg';
 import settings from './settings.svg';
 import filter from './filter.svg';
+import close from './close.svg';
 import logo from './logo.png';
 
 export const icons = {
@@ -27,6 +28,7 @@ export const icons = {
   plus,
   settings,
   filter,
+  close,
   logo,
 };
 
