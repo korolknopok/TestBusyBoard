@@ -21,8 +21,8 @@ const STEPS: Step[] = [
     content: 'Супер, теперь давайте создадим свою собственную заявку на поставку!',
   },
   {
-    target: 'body',
-    placement: 'center',
+    target: '.supply-requests-table',
+    placement: 'left',
     title: 'Готово!',
     content: 'Вы большой молодец! Поздравляем с освоением нового раздела, надеемся он принесет вам много пользы!',
   },
