@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { Onboarding } from 'features/onboarding/Onboarding';
-import { SupplyFiltersPanel } from 'pages/supply-requests/SupplyFiltersPanel';
-import { SupplyPagination } from 'pages/supply-requests/SupplyPagination';
-import { SupplyRequestsTable } from 'pages/supply-requests/SupplyRequestsTable';
+import { SupplyFiltersPanel } from 'pages/supply-requests/filters-panel/SupplyFiltersPanel';
+import { SupplyPagination } from 'pages/supply-requests/pagination/SupplyPagination';
+import { SupplyRequestsTable } from 'pages/supply-requests/requests-table/SupplyRequestsTable';
 import './SupplyRequestsPage.scss';
 
 export const SupplyRequestsPage = () => (
